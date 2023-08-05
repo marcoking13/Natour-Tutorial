@@ -1,0 +1,19 @@
+{
+  "name": "project_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass scss/main.scss css/style.css -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jquery": "^3.7.0",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
